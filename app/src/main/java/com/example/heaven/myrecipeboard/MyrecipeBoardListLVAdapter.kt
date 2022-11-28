@@ -28,7 +28,7 @@ class MyrecipeBoardListLVAdapter(val boardList : MutableList<MyrecipeBoardModel>
 
         var view = convertView
 
-        view = LayoutInflater.from(parent?.context).inflate(R.layout.board_list_item, parent, false)
+        view = LayoutInflater.from(parent?.context).inflate(R.layout.myrecipeboard_list_item, parent, false)
 
         val itemLinearLayoutView = view?.findViewById<LinearLayout>(R.id.itemView)
         val title = view?.findViewById<TextView>(R.id.titleArea)
