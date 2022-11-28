@@ -52,7 +52,9 @@ class MyrecipeBoardEditActivity : AppCompatActivity() {
 //            .child(key)
 //            .setValue(
 //                MyrecipeBoardModel(binding.titleArea.text.toString(),
-//                    binding.contentArea.text.toString(),
+//                    binding.catespinner.selectedItem.toString(),
+//                    binding.ingredientArea.text.toString(),
+//                    binding.progressArea.text.toString(),
 //                    writerUid,
 //                    FBAuth.getTime())
 //            )
@@ -94,7 +96,9 @@ class MyrecipeBoardEditActivity : AppCompatActivity() {
 //                val dataModel = dataSnapshot.getValue(MyrecipeBoardModel::class.java)
 //
 //                binding.titleArea.setText(dataModel?.title)
-//                binding.contentArea.setText(dataModel?.content)
+////                binding.catespinner.setSelection(dataModel?.cate)
+//                binding.ingredientArea.setText(dataModel?.ingredi)
+//                binding.titleArea.setText(dataModel?.title)
 //                writerUid = dataModel!!.uid
 //
 //            }
